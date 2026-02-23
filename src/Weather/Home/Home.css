@@ -92,10 +92,6 @@ c1::placeholder {
   color: black;
 }
 .d1{
-  font-size: 32px;
-  left: 20px;
-}
-.d1{
 font-size: 30px;
 margin-bottom: 10px;
 }
@@ -109,7 +105,8 @@ margin-bottom: 10px;
 .e1{
   color: white;
 }
-.f1
+
+.f1{
   position: absolute;
   top: 40%;
   left: 20%;
