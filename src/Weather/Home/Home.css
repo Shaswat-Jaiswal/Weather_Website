@@ -26,22 +26,14 @@ html, body, #root {
   object-fit: cover;
   display: block; /* left-top gap fix */
 }
-search-box {
+.search-box {
   position: absolute;
   top: 30px;            /* upar se distance */
   left: 50%;
   transform: translateX(-50%);
 }
 
-.c1 {
-  width: 260px;
-  padding: 12px 18px;
-  border-radius: 25px;
-  border: none;
-  outline: none;
-  font-size: 16px;
-  color: black;
-}
+
 .search-box {
   position: absolute;
   top: 30px;            /* upar se distance */
@@ -57,11 +49,10 @@ search-box {
   outline: none;
   font-size: 16px;
   background: none;
-   border: 2px solid white;     /* ⭐ border visible */
-
+   border: 2px solid white;     
   outline: none;
   font-size: 16px;
-  color: white; 
+  color: black; 
 }
 c1::placeholder {
   color: rgba(255, 255, 255, 0.8);
@@ -119,6 +110,10 @@ margin-bottom: 10px;
 }
 .i1{
   font-size: 12px;
+  color: white;
+}
+.j1{
+  color: white;
 }
 .line {
   position: absolute;
@@ -320,6 +315,7 @@ margin-bottom: 10px;
 .hour {
   font-size: 12px;
   opacity: 0.8;
+  font-weight: 800;
 }
 
 .hour-icon {
